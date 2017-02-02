@@ -21,18 +21,18 @@
 
         <div class="row">
 
-            <div class="col-md-6">
-                <div class="form-group">
+            <div class="col-md-12">
+                <div class="form-group" style="display:none">
                     <label for="firstname" class="control-label">{$LANG.clientareafirstname}</label>
                     <input type="text" name="firstname" id="firstname" value="{$clientfirstname}" class="form-control" {if !in_array('firstname', $optionalFields)}required{/if} />
                 </div>
 
-                <div class="form-group">
+                <div class="form-group" style="display:none">
                     <label for="lastname" class="control-label">{$LANG.clientarealastname}</label>
                     <input type="text" name="lastname" id="lastname" value="{$clientlastname}" class="form-control" {if !in_array('lastname', $optionalFields)}required{/if} />
                 </div>
 
-                <div class="form-group">
+                <div class="form-group" style="display:none">
                     <label for="companyname" class="control-label">{$LANG.clientareacompanyname}</label>
                     <input type="text" name="companyname" id="companyname" value="{$clientcompanyname}" class="form-control"/>
                 </div>
@@ -56,7 +56,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" style="display:none">
 
                 <div class="form-group">
                     <label for="address1" class="control-label">{$LANG.clientareaaddress1}</label>
